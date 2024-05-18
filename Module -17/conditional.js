@@ -52,3 +52,24 @@ if((salary > 30000 || isBcs == true) && height > 70){
 if((salary > 30000 || isBcs == true) || height > 70){
     console.log('date fixed for get married')
 }
+
+
+//************Else if************ */
+
+const price = 4000;
+
+if(price >= 5000){
+    //10% discount 
+    const discount = price * 10/100;
+    const payAmount = price - discount;
+    console.log(payAmount);
+}
+else if(price >= 3000){
+    const discount2 = price * 7/100;
+    const payAmount2 = price - discount2;
+    console.log(payAmount2);
+}
+
+else{
+    console.log('nothing to say')
+}
