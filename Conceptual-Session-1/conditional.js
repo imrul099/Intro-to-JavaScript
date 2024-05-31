@@ -40,5 +40,6 @@ var numbers = [33, 66, 24, 75, 34, 64, 44, 55, 88];
 // console.log(numbers.length-1)
 
 // console.log(numbers.splice(2, 2));
-console.log(numbers.splice(2, 3, 40, 60));
+// console.log(numbers.splice(2, 3, 40, 60));
+console.log(numbers.splice(2, 0, 40, 60));
 console.log(numbers)
