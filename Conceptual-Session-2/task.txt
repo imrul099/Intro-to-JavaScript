@@ -1,0 +1,14 @@
+let const
+while loop
+for loop
+for of loop
+break and continue
+do while loop
+string compare lowercase uppercase trim
+object dot notation, bracket notation
+get set delete porperties
+for in loop
+
+
+
+bonus part (template string);
