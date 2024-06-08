@@ -30,4 +30,4 @@ function isLeapYear(year){
 }
 
 const learYear = isLeapYear(2052);
-console.log(learYear);
+console.log(learYear); 
