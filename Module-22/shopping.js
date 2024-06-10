@@ -8,7 +8,7 @@ const shopping = [
 
 function cartTotal(products){
     let cost = 0;
-    for(const product of products){
+    for(const product of products){ 
         const thisProductCost = product.price * product.quantity;
 
         cost = cost + thisProductCost;
