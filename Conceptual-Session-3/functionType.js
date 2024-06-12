@@ -15,7 +15,7 @@ function getSome(){
 //no paremeters, but return;
 function getSome(){
     return 5;
-}
+};
 
 // parameters, but not return;
 function getSome(name){
