@@ -35,4 +35,42 @@ function pandaCost(singara, samusa, jilapi){
 }
 
 const totalPrice = pandaCost(1, -3, 3);
-console.log(totalPrice);
+//console.log(totalPrice);
+
+
+
+
+
+//#Task-4;
+
+function getPicnicBudget(participents){
+    if(typeof participents !== 'number' || participents < 0){
+        return 'valid positive number'
+    }
+    else {
+        let first100Price = 0;
+        let second101To200 = 0;
+        let remainingPrice = 0;
+        let totalCost = 0;
+
+        if(participents <= 100){
+            first100Price = participents * 5000;
+            return first100Price;
+        }
+        else if(participents <= 200){
+            first100Price = 5000 * 100;
+            second101To200 = (participents - 100) * 4000;
+            total = first100Price + second101To200;
+            return total;
+        }
+        else{
+            first100Price = 5000 * 100;
+             second101To200 = 4000 * 100;
+            remainingPrice = (participents - 200) * 3000;
+            total = first100Price + second101To200 + remainingPrice;
+            return total;
+        }
+    }
+}
+
+console.log(getPicnicBudget(301))
