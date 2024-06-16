@@ -25,3 +25,21 @@
 
 
  mainContainer.appendChild(section);
+
+
+
+ // Set inner HTML directly.........
+
+ const sectionDress = document.createElement('section');
+
+ sectionDress.innerHTML = `
+ <h1>My Dress Favorite</h1>
+ <p>I dont have any favourite dress.both are normal</p>
+ <ul>
+    <li>panjami</li>
+    <li>genji</li>
+    <li>broka</li>
+ </ul>
+ `
+
+ mainContainer.appendChild(sectionDress);
