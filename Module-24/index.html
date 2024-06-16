@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h3>Welcome to our new website</h3>
+    </header>
+    <main class="main-section">
+        <h3 id="dom-man" class="dom style object-model none">DOM: Document Object Model</h3>
+        <p>
+            The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content
+        </p>
+        <ul>
+            <li class="list-style">can Change</li>
+            <li class="list-style">can Modify</li>
+            <li class="list-style">can Remove</li>
+        </ul>
+    </main>
+
+    <script>
+        const listStyle = document.getElementsByClassName('list-style');
+        for(const list of listStyle){
+            const mew = list.innerText;
+            //console.log(mew);
+        }
+
+
+
+        const someLi = document.querySelectorAll('.list-style');
+        console.log(someLi);
+        for(const li of someLi){
+            console.log(li.innerText = 'miss you baby');
+        }
+    </script>
+</body>
+</html>
