@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Dom Summary</title>
+</head>
+<body>
+    <h1 id="handler-status">Final Dom Event Handler</h1>
+    <button onclick="handleOnClick()">Handle Event by add onclick Function</button>
+
+    <button id="add-listener">handle event by addEventListener</button>
+
+    <script>
+        function handleOnClick(){
+            const handlerStatus = document.getElementById('handler-status');
+            handlerStatus.innerText = 'Kamon aco tmi priotomo';
+            handlerStatus.style.color = 'red'
+        }
+
+        //option-2:
+        document.getElementById('add-listener').addEventListener('click', function(){
+            const handlerStatus = document.getElementById('handler-status');
+            handlerStatus.innerText = 'Default Text';
+            handlerStatus.style.color = 'purple';
+            handlerStatus.style.fontSize = '3.5rem'
+        })
+    </script>
+</body>
+</html>
