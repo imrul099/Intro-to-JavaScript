@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="main">How are you Doing today man</h2>
+    <ul id="list-container">
+        <!-- comment -->
+        <li id="item" class="item">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+        <li class="item">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+        <li id="third" class="item">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+        <li class="item">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+        <li class="item">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+        <li class="item">Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
+    </ul>
+
+    <script src="./script.js"></script>
+
+    <script>
+        const container = document.getElementById('main');
+        //console.log(container.innerText);
+
+
+        const listContainer = document.getElementsByClassName('item');
+        //console.log(listContainer);
+        for(index = 0; index<listContainer.length; index++){
+            // console.log(listContainer[index])
+            const item = listContainer[index];
+            item.style.color = 'red';
+            item.innerText = 'Allah Akbar'
+        }
+
+        const listQuary = document.querySelectorAll('li, h2');
+        //console.log(listQuary);
+
+
+        const list = document.querySelector('li');
+        //console.log(list);
+
+        const ul = document.getElementById('item');
+        console.log(ul.parentElement.previousElementSibling);
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Event</title>
+    <style>
+        .btn-primary{
+            padding: 1rem;
+            font-size: large;
+            font-weight: 600;
+            border-radius: 4px;
+            margin-right: 8px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome to my Awesome Count App😎</h1>
+    <div style="text-align: center;">
+        <h1 id="count"> 0 </h1>
+        <button onclick="clickMe()" id="btn-plus" style="background-color: aqua;" class="btn-primary">+</button>
+        <button id="btn-minus" style="background-color: rgb(120, 212, 27);" class="btn-primary">-</button>
+    </div>
+
+    <script>
+        let sum = 0;
+        const plusCount = document.getElementById('count');
+        
+        function clickMe(){
+            sum += 1;
+            plusCount.innerText = sum;
+        }
+
+        document.getElementById('btn-minus').addEventListener('click', function(){
+            sum -= 1;
+            plusCount.innerText = sum;
+        })
+    </script>
+</body>
+</html>

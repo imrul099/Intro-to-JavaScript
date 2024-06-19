@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Bubble</title>
+</head>
+<body style="border: 1px solid tomato;" id="body">
+    <h1>Exploring Event Bubble</h1>
+    <section style="border: 1px solid red;" id="container">
+        <ul style="border: 1px solid purple;" id="list-container">
+            <li id="item-1">Lorem ipsum dolor sit amet.</li>
+            <li id="item-2">Lorem ipsum dolor sit amet.</li>
+            <li style="border: 1px solid rgb(54, 186, 31);" id="item-3">Lorem ipsum dolor sit amet.</li>
+            <li id="item-4">Lorem ipsum dolor sit amet.</li>
+            <li id="item-5">Lorem ipsum dolor sit amet.</li>
+            <li id="item-6">Lorem ipsum dolor sit amet.</li>
+        </ul>
+    </section>
+
+    <script>
+        document.getElementById('item-3').addEventListener('click', function(event){
+            console.log('btn clicked');
+            // event.stopPropagation();
+            event.stopImmediatePropagation()
+        });
+        document.getElementById('item-3').addEventListener('click', function(event){
+            console.log('btn clicked 22222222222');
+            // event.stopPropagation();
+        });
+        document.getElementById('item-3').addEventListener('click', function(event){
+            console.log('btn clicked 33333333333');
+            //event.stopPropagation();
+           
+        });
+
+        document.getElementById('list-container').addEventListener('click', function(){
+            console.log('btn clicked list container');
+        })
+        document.getElementById('container').addEventListener('click', function(){
+            console.log('btn clicked container');
+        });
+
+        document.getElementById('body').addEventListener('click', function(){
+            console.log('clicked body of html')
+        })
+    </script>
+</body>
+</html>
