@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Geometry Genious</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="m-8">
+    <header>
+
+    </header>
+    <main>
+      <div class="flex gap-2 flex-col md:flex-row">
+        <!-- shape contaier -->
+        <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+          <!-- Triangle Card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="./images/triangle.png" alt=""></figure>
+            <div class="card-body text-center">
+              <h2 class="text-xl font-semibold">Triangle</h2>
+              <p>Area(A) = 0.5 * b * h</p>
+              <div class="card-actions">
+                <button class="w-full btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- Triangle Card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="./images/rectangle.png" alt=""></figure>
+            <div class="card-body text-center">
+              <h2 class="text-xl font-semibold">Rectangle</h2>
+              <p>Area(A) = w * l</p>
+              <div class="card-actions">
+                <button class="w-full btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- Triangle Card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="./images/parallelogram.png" alt=""></figure>
+            <div class="card-body text-center">
+              <h2 class="text-xl font-semibold">Parallelogram</h2>
+              <p>Area(A) = b * h</p>
+              <div class="card-actions">
+                <button class="w-full btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- Triangle Card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="./images/rhombus.png" alt=""></figure>
+            <div class="card-body text-center">
+              <h2 class="text-xl font-semibold">Rhombus</h2>
+              <p>Area(A) = 0.5 * d <sub>1</sub> * d <sub>2</sub></p>
+              <div class="card-actions">
+                <button class="btn btn-primary w-full">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- Triangle Card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="./images/pentagon.png" alt=""></figure>
+            <div class="card-body text-center">
+              <h2 class="text-xl font-semibold">Pentagon</h2>
+              <p>Area(A) = 0.5 * p * b</p>
+              <div class="card-actions">
+                <button class="btn btn-primary w-full">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- Triangle Card -->
+          <div class="card bg-base-100 shadow-xl">
+            <figure><img src="./images/ellipse.png" alt=""></figure>
+            <div class="card-body text-center">
+              <h2 class=" text-xl font-semibold">Ellipse</h2>
+              <p class="">Area(A) = 3.1416 * a*b</p>
+              <div class="card-actions">
+                <button class="btn btn-primary w-full">Calculate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- area container -->
+        <div class="lg:w-96 border-2 border-cyan-100">
+          <h3 class="text-3xl text-center">Area Calculation</h3>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
