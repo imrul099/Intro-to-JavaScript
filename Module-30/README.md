@@ -1,4 +1,4 @@
-*Short Note*
+* Short Note *
 
 *** // Multiple Line String: \n --> for another line; ***
 
