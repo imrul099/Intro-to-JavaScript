@@ -7,3 +7,13 @@ example: const email = 'Hi jhon \n' +
 'chiill'
 
 *** // Multi line String: use Backtick ` ` ***
+
+
+
+
+
+----------------------------------
+
+## Spread Operator
+
+The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.
