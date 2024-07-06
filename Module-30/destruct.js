@@ -14,13 +14,13 @@ const actor = {
 const {phone, age : boyos} = actor;
 
 
-console.log(phone);
-console.log(phone);
-console.log(phone);
-console.log(bo)
-console.log(age)
-console.log(age)
-console.log(age)
+// console.log(phone);
+// console.log(phone);
+// console.log(phone);
+// console.log(bo)
+// console.log(age)
+// console.log(age)
+// console.log(age)
 
 // array destrusturing.
 

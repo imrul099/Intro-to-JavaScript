@@ -21,3 +21,9 @@ function fullName(first, last = '' ){// default value: ' '
 }
 fullName('rakib');
 
+
+
+
+const obj = {foo : 1,};
+obj.bar = 2;
+console.log(obj);
