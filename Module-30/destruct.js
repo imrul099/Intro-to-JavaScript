@@ -28,6 +28,12 @@ const numbers  = [33,54];
 const [first, second] = numbers;
 const [x, y] = [12,23];
 
+const arr = [25, 77, 100];
+const [cake, pizza, fires] = arr;
+console.log(cake);
+console.log(arr);
+console.log(pizza)
+
 
 //function:advance;
 
@@ -36,4 +42,4 @@ function doubleThem(a, b){
 }
 
 const [prothom, ditiyo] = doubleThem(9,9);
-console.log(prothom, ditiyo)
+//console.log(prothom, ditiyo)
