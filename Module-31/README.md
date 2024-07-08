@@ -19,3 +19,6 @@ The map() method creates a new array by applying a provided function to each ele
 ## filter() & find() :
 
 find() returns the first matching element, while . filter() returns an array of all matching elements. When working with an array in JavaScript, we may need to locate a single item within the collection. This may appear tiresome, but if we apply the right methods/procedures/techniques, it shouldn't be too tough.
+
+
+## Prototypical Inderitance: refers to the ability to access object properties from another object. We use a Javascript prototype to add new properties and methods to an exiting object constructor.
