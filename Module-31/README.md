@@ -1,3 +1,4 @@
+
 ### Optional Chaining...
 
 The optional chaining (?.) operator accesses an object's property or calls a function. If the object accessed or function called using this operator is undefined or null, the expression short circuits and evaluates to undefined instead of throwing an error.
@@ -21,4 +22,5 @@ The map() method creates a new array by applying a provided function to each ele
 find() returns the first matching element, while . filter() returns an array of all matching elements. When working with an array in JavaScript, we may need to locate a single item within the collection. This may appear tiresome, but if we apply the right methods/procedures/techniques, it shouldn't be too tough.
 
 
-## Prototypical Inderitance: refers to the ability to access object properties from another object. We use a Javascript prototype to add new properties and methods to an exiting object constructor.
+## Prototypical Inderitance: 
+refers to the ability to access object properties from another object. We use a Javascript prototype to add new properties and methods to an exiting object constructor.
