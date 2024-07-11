@@ -13,4 +13,11 @@
  * 2. 0.
  * 3. '' (empty string);
  * 4. null
+ * 5. undefined.
+ * 6. NaN
  */
+
+
+//Easiest way to get an element true or false;
+const value = ''
+console.log(!!value);
