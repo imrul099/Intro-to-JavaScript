@@ -31,4 +31,11 @@ console.log(x);
 const y = number.filter(item => item%2 === 0);
 const y2 = number.filter(item => item>100);
 console.log(y);
-console.log(y2)
+console.log(y2);
+
+// 4. reduce().
+
+const songkha = [1, 2, 3, 4, 5];
+
+const sum = songkha.reduce((preValue, currentValue) => preValue + currentValue, 0);
+console.log(sum);
