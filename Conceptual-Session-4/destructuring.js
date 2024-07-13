@@ -13,9 +13,16 @@ const person = {
     name : 'hero alom',
     age : 34,
     phone : '029384793',
-    address : 'bari dharra',
-    p : [3,4,5,6]
+    address : {
+        zila : 'Dhaka',
+        village : 'bola jabe na'
+    },
+    p : [3,4,5,6],
+    
 }
 
 const {phone, p: newArray, age} = person;
-console.log(newArray)
+
+
+const {address:{zila}} = person;
+console.log(zila);
