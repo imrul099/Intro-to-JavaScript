@@ -17,7 +17,7 @@ const person = {
 // }
 
 
-// One Line Destructure
+// One Line Destructure:
 const showInfo = ({name, age}) => {
     
     console.log(name, age);

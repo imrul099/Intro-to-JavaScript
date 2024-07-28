@@ -7,6 +7,10 @@
 // };
 // outerFunction(2);
 
+
+// akta function er moddeh arekta function thakbe, jei function tar kaj hobe tar bahirer, j tar parent function
+
+
 const outFunction = () => {
     let count = 0;
     
